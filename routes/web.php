@@ -118,7 +118,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     });
     Route::get('testpag', function() {
-
+        return 'test';
     });
 });
 
