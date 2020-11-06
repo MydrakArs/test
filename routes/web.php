@@ -114,6 +114,9 @@ Route::group(['middleware' => 'auth'], function () {
         'uses' => 'FriendshipsController@index',
         'as' => 'friends'
     ]);
+    Route::get('about', function() {
+
+    });
 });
 
 Route::get('/settings', function() {
