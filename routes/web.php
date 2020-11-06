@@ -117,6 +117,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('about', function() {
 
     });
+    Route::get('testpage', function() {
+
+    });
 });
 
 Route::get('/settings', function() {
